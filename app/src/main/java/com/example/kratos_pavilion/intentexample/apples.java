@@ -17,7 +17,7 @@ public class apples extends AppCompatActivity {
         startService(intent);
 
     }
-       public void onClick(View view) {
+       public void onClick(View view){
         Intent i=new Intent(this,Bacon.class);
 
         startActivity(i);
