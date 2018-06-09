@@ -10,8 +10,8 @@
 
     <Button
         android:id="@+id/applesbutton"
-        android:layout_width="129dp"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="61dp"
         android:layout_centerInParent="true"
         android:background="@android:color/holo_green_light"
         android:onClick="onClick"
@@ -19,17 +19,18 @@
 
     <TextView
         android:id="@+id/applestext"
-        android:layout_width="165dp"
-        android:layout_height="46dp"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="98dp"
-        android:background="@color/colorAccent"
+        android:background="#64f17a0a"
         android:lineSpacingExtra="8sp"
         android:text="@string/apples"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:background="@android:color/holo_blue_bright" />
 
 </RelativeLayout>
