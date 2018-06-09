@@ -13,7 +13,7 @@ public class apples extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apples);
-        Intent intent=new Intent(this,IntentServices.class);
+        Intent intent=new Intent(this,MyService.class);
         startService(intent);
 
     }
