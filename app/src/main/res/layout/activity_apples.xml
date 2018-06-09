@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apples">
+
+
+    <Button
+        android:id="@+id/applesbutton"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_green_light"
+        android:onClick="onClick"
+        android:text="@string/go_to_bacon" />
+
+    <TextView
+        android:id="@+id/applestext"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="@color/colorAccent"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/apples"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

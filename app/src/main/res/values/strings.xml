@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intent Example</string>
+    <string name="go_to_bacon">Go to Bacon</string>
+    <string name="apples">Apples</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="bacon">Bacon</string>
+    <string name="some_explanation_about_the_input">Some explanation about the input...</string>
+    <string name="go_to_apples">Go to Apples</string>
+</resources>

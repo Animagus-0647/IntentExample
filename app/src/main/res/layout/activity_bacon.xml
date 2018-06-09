@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacons"
+    tools:context=".Bacon">
+
+    <Button
+        android:id="@+id/BaconButton"
+        android:layout_width="155dp"
+        android:layout_height="81dp"
+        android:layout_centerInParent="true"
+        android:onClick="onClick"
+        android:text="@string/go_to_apples" />
+
+    <EditText
+        android:id="@+id/BaconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:ems="10"
+        android:hint="@string/some_explanation_about_the_input"
+        android:inputType="textPersonName"
+        android:labelFor="@id/BaconText"
+        android:text="@string/bacon"
+        android:textAlignment="center" />
+</RelativeLayout>
